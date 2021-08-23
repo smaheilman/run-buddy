@@ -68,7 +68,7 @@ section{
 /* Hero Style Start*/
 .hero{
     padding:60px;
-    background-image: url("file:///C:/Users/smahe/projects/run-buddy/assets/images/hero-bg.jpg");
+    background-image: url('../images/hero-bg.jpg');
     height: 600px;
     background-size:cover;
     background-position: center;
