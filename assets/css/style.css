@@ -54,6 +54,13 @@ header nav ul li a{
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+header nav ul li a:hover{
+    background:#fce138;
+    color:#024e76;
+    border-radius: 15px;
+    text-shadow:none;
+}
+
 h2{
     color: #39a6b2;
     font-weight: bold;
@@ -126,6 +133,11 @@ h3{
     width:100%;
     margin-bottom: 15px;
     border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+}
+.form-input:focus{
+    background-color: rgba(255,255,255, 1);
+    outline: none;
 }
 
 .hero-form label{
@@ -139,6 +151,9 @@ h3{
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 10px;
+}
+.hero-form button:hover{
+    background-color: #39a6b2;
 }
 
 .hero-cta {
@@ -239,10 +254,14 @@ h3{
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #39a6b2;
+}
+
+.step:last-child{
+   border-bottom: none;
 }
 
 .trainer {
@@ -344,6 +363,11 @@ h3{
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+}
+.contact-info input:focus, .contact-form textarea:focus{
+    background-color: rgba(255,255,255, 1);
+    outline: none;
 }
 
 .contact-form button{
@@ -355,6 +379,10 @@ h3{
     padding: 15px 0;
     font-size:  16px;
     border-radius: 10px;
+}
+.contact-info button:hover{
+    color:#fce138;
+    background: #39a6b2;
 }
 
 /* Reach out styles end*/
@@ -383,10 +411,12 @@ h3{
   header nav ul li a{
       font-size: 20px;
   }
+
   footer h2, footer div{
       text-align: center;
       width: 100%;
   }
+  
   .hero-cta, .hero-form{
       width: 100%;
   }
